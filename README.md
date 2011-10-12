@@ -11,6 +11,10 @@ teams of testers and developers.
 
 - - -
 
+<a id="copyright"/>
+
+- - -
+
 ### Features
 
 * Sessions - Discover how testers are using your application. Watch as they progress and take unexpected turns.
@@ -82,13 +86,13 @@ tabGroup.open();
 
 - - - 
 
-### TODO
+### ToDo
 
 * Need to write more examples to better show off features.
 
 - - -
 
-### HOW TO HELP
+### How To Help
 1. Go to github and click the “fork” button.
 1. git clone git@github.com:DamageStudios/testflight-module.git
 1. cd testflight-module
@@ -100,13 +104,13 @@ tabGroup.open();
 
 - - - 
 
-### LICENSE
+### License
 
 Apache Public License version 2
 
 - - -
 
-### COPYRIGHT
+### Copyright<a id="copyright"/>
 
 Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
 
