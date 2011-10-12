@@ -1,3 +1,5 @@
+![TestFlight](TestFlight.png)
+
 Appcelerator Titanium TestFlight Module for iOS 
 ==========================================
 
@@ -85,3 +87,5 @@ Apache Public License version 2
 COPYRIGHT
 =========
 Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
+
+Appcelerator is a registered trademark of Appcelerator, Inc. Appcelerator Titanium is a trademark of Appcelerator, Inc.
