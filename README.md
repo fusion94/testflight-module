@@ -11,11 +11,16 @@ teams of testers and developers.
 
 - - -
 
-[Copyright](#copyright)
+* <a href="#features">Features</a>
+* <a href="#usage">Basic Usage</a>
+* <a href="#todo">ToDo</a>
+* <a href="#help">How To Help</a>
+* <a href="#license">License</a>
+* <a href="#copyright">Copyright</a>
 
 - - -
 
-### Features
+### <a name="features">Features</a>
 
 * Sessions - Discover how testers are using your application. Watch as they progress and take unexpected turns.
 * In-App Questions - The most effective way to get tester feedback. Get the answers you need by asking questions the moment a checkpoint is passed.
@@ -26,7 +31,7 @@ teams of testers and developers.
 
 - - - 
 
-### Basic Usage:
+### <a name="usage">Basic Usage:</a>
 ~~~
 Titanium.UI.setBackgroundColor('#eee');
 
@@ -86,13 +91,13 @@ tabGroup.open();
 
 - - - 
 
-### ToDo
+### <a name="todo">ToDo</a>
 
 * Need to write more examples to better show off features.
 
 - - -
 
-### How To Help
+### <a name="help">How To Help</a>
 1. Go to github and click the “fork” button.
 1. git clone git@github.com:DamageStudios/testflight-module.git
 1. cd testflight-module
@@ -104,13 +109,13 @@ tabGroup.open();
 
 - - - 
 
-### License
+### <a name="license">License</a>
 
 Apache Public License version 2
 
 - - -
 
-### Copyright<a id="copyright"/>
+### <a name="copyright">Copyright</a>
 
 Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
 
