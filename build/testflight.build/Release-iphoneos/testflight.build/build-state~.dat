@@ -1,255 +1,0 @@
-Ttestflight
-v3
-r1
-cCheck dependencies
-cProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-cProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
-c000000004D9A119B0000000000000110
-t1301942683
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D93E1FD00000000003E22F0
-t1301537277
-s4072176
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D93E1E60000000000001466
-t1301537254
-s5222
-
-N/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h
-c000000004E94637800000000000000F2
-t1318347640
-s242
-i"TiModule.h"
-
-N/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m
-c000000004E94637800000000000008D4
-t1318347640
-s2260
-i"TiTestflightModule.h"
-i"TiBase.h"
-i"TiHost.h"
-i"TiUtils.h"
-i"TestFlight.h"
-
-N/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.h
-c000000004E94637800000000000000A0
-t1318347640
-s160
-
-N/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m
-c000000004E9463780000000000000108
-t1318347640
-s264
-i"TiTestflightModuleAssets.h"
-
-N/Users/fusion94/tmp/testflight-module/TestFlight.h
-c000000004E94637800000000000004C1
-t1318347640
-s1217
-i<Foundation/Foundation.h>
-
-N/Users/fusion94/tmp/testflight-module/TiTestflight_Prefix.pch
-c000000004E946378000000000000003E
-t1318347640
-s62
-i<Foundation/Foundation.h>
-
-N/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/libTiTestflight.a
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflight.LinkFileList
-c000000004E9463B60000000000000118
-t1318347702
-s280
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/libTiTestflight.a
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflight.LinkFileList
-c000000004E9463B60000000000000118
-t1318347702
-s280
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/libTiTestflight.a
-t2
-s0
-
-N/Users/fusion94/tmp/testflight-module/libTestFlight.a
-c000000004E9463780000000000249C2C
-t1318347640
-s2399276
-
-N/var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch
-t2
-s0
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies755899339b44b441^6d3814369b44b441^---0#1#0#--18"Check dependencies
-
-CCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-s340040503.895601
-e340040504.118517
-r0
-xCompileC
-xbuild/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o
-x/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-oIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:7:21: error: TiModule.h: No such file or directory
-oIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:10: error: cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:8:19: error: TiBase.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:9:19: error: TiHost.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:10:20: error: TiUtils.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule startup]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:35: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule shutdown:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:48: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule dealloc]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:56: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule didReceiveMemoryWarning:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:65: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule token:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: 'TiUtils' undeclared (first use in this function)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: (Each undeclared identifier is reported only once
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: for each function it appears in.)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule checkpoint:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:78: warning: implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:80: error: 'TiUtils' undeclared (first use in this function)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule customInfo:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:92: error: 'TiUtils' undeclared (first use in this function)
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.me868e5379b44b441^de3b1e389b44b441^-2958"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:7:21: error: TiModule.h: No such file or directoryIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:10: error: cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:8:19: error: TiBase.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:9:19: error: TiHost.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:10:20: error: TiUtils.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule startup]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:35: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule shutdown:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:48: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule dealloc]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:56: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule didReceiveMemoryWarning:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:65: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule token:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: 'TiUtils' undeclared (first use in this function)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: (Each undeclared identifier is reported only once/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: for each function it appears in.)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule checkpoint:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:78: warning: implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:80: error: 'TiUtils' undeclared (first use in this function)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule customInfo:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:92: error: 'TiUtils' undeclared (first use in this function)13(21%IDEActivityLogMessage2@37"TiModule.h: No such file or directory-340040504#92#118#2(36%IDEActivityLogHeaderInclusionMessage3@88"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m-340040503#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@107"TiModule.h: No such file or directory in /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@84"Cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'-340040504#302#163#2(3@88"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@154"Cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule' in /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#60"Cannot find interface declaration for '*', superclass of '*'--2@35"TiBase.h: No such file or directory-340040504#465#116#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^7#18446744073709551615#7#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@35"TiHost.h: No such file or directory-340040504#581#116#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@36"TiUtils.h: No such file or directory-340040504#697#118#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#928#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^34#18446744073709551615#34#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1184#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^47#18446744073709551615#47#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1438#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^55#18446744073709551615#55#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1709#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^64#18446744073709551615#64#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@49"'TiUtils' undeclared (first use in this function)-340040504#1962#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--2@57"Implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'-340040504#2447#138#-1#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^77#18446744073709551615#77#18446744073709551615#18446744073709551615#0#36"Implicit declaration of function '*'--2@49"'TiUtils' undeclared (first use in this function)-340040504#2585#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^79#18446744073709551615#79#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--2@49"'TiUtils' undeclared (first use in this function)-340040504#2830#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^91#18446744073709551615#91#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--0#0#0#-19%DVTDocumentLocation5@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^2379"CompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o Classes/TiTestflightModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv6 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -include /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch -c /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m -o /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModule.o
-
-CCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-s340040503.895574
-e340040504.118684
-r0
-xCompileC
-xbuild/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o
-x/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.mcd72e5379b44b441^0b7f1e389b44b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m0000000000000000^2403"CompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o Classes/TiTestflightModuleAssets.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv6 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -include /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch -c /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m -o /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/TiTestflightModuleAssets.o
-
-CCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s340040504.040179
-e340040504.118693
-r0
-xCompileC
-xbuild/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o
-x/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-oIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:7:21: error: TiModule.h: No such file or directory
-oIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:10: error: cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:8:19: error: TiBase.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:9:19: error: TiHost.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:10:20: error: TiUtils.h: No such file or directory
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule startup]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:35: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule shutdown:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:48: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule dealloc]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:56: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule didReceiveMemoryWarning:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:65: error: no super class declared in @interface for 'TiTestflightModule'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule token:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: 'TiUtils' undeclared (first use in this function)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: (Each undeclared identifier is reported only once
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: for each function it appears in.)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule checkpoint:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:78: warning: implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:80: error: 'TiUtils' undeclared (first use in this function)
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule customInfo:]':
-o/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:92: error: 'TiUtils' undeclared (first use in this function)
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m27690a389b44b441^dd281e389b44b441^-2958"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:7:21: error: TiModule.h: No such file or directoryIn file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:7:/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h:10: error: cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:8:19: error: TiBase.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:9:19: error: TiHost.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:10:20: error: TiUtils.h: No such file or directory/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule startup]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:35: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule shutdown:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:48: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule dealloc]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:56: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule didReceiveMemoryWarning:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:65: error: no super class declared in @interface for 'TiTestflightModule'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule token:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: 'TiUtils' undeclared (first use in this function)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: (Each undeclared identifier is reported only once/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:72: error: for each function it appears in.)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule checkpoint:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:78: warning: implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:80: error: 'TiUtils' undeclared (first use in this function)/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m: In function '-[TiTestflightModule customInfo:]':/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m:92: error: 'TiUtils' undeclared (first use in this function)13(21%IDEActivityLogMessage2@37"TiModule.h: No such file or directory-340040504#92#118#2(36%IDEActivityLogHeaderInclusionMessage3@88"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m-340040504#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@107"TiModule.h: No such file or directory in /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@84"Cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule'-340040504#302#163#2(3@88"In file included from /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@154"Cannot find interface declaration for 'TiModule', superclass of 'TiTestflightModule' in /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h-340040504#18446744073709551615#0#-0#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#60"Cannot find interface declaration for '*', superclass of '*'--2@35"TiBase.h: No such file or directory-340040504#465#116#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^7#18446744073709551615#7#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@35"TiHost.h: No such file or directory-340040504#581#116#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@36"TiUtils.h: No such file or directory-340040504#697#118#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#928#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^34#18446744073709551615#34#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1184#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^47#18446744073709551615#47#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1438#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^55#18446744073709551615#55#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@62"No super class declared in @interface for 'TiTestflightModule'-340040504#1709#141#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^64#18446744073709551615#64#18446744073709551615#18446744073709551615#0#18"LLVM GCC 4.2 Error--2@49"'TiUtils' undeclared (first use in this function)-340040504#1962#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--2@57"Implicit declaration of function 'ENSURE_UI_THREAD_1_ARG'-340040504#2447#138#-1#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^77#18446744073709551615#77#18446744073709551615#18446744073709551615#0#36"Implicit declaration of function '*'--2@49"'TiUtils' undeclared (first use in this function)-340040504#2585#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^79#18446744073709551615#79#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--2@49"'TiUtils' undeclared (first use in this function)-340040504#2830#128#-2#-4@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^91#18446744073709551615#91#18446744073709551615#18446744073709551615#0#43"'*' undeclared (first use in this function)--0#0#0#-19%DVTDocumentLocation5@82"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m0000000000000000^2379"CompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o Classes/TiTestflightModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv7 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -include /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch -c /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModule.m -o /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModule.o
-
-CCompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s340040504.040212
-e340040504.118733
-r0
-xCompileC
-xbuild/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o
-x/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m616b0a389b44b441^1a8b1e389b44b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m0000000000000000^2403"CompileC build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o Classes/TiTestflightModuleAssets.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv7 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -include /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch -c /Users/fusion94/tmp/testflight-module/Classes/TiTestflightModuleAssets.m -o /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/TiTestflightModuleAssets.o
-
-CCreateUniversalBinary /Users/fusion94/tmp/testflight-module/build/Release-iphoneos/libTiTestflight.a normal "armv6 armv7"
-r0
-
-CLibtool /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv6/libTiTestflight.a normal armv6
-r0
-
-CLibtool /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/Objects-normal/armv7/libTiTestflight.a normal armv7
-r0
-
-CProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
-s340040502.305916
-e340040503.887999
-r1
-xProcessPCH
-x/var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch
-xTiTestflight_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile TiTestflight_Prefix.pch6e8b4e369b44b441^b952e3379b44b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/fusion94/tmp/testflight-module/TiTestflight_Prefix.pch0000000000000000^2308"ProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv6 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -c /Users/fusion94/tmp/testflight-module/TiTestflight_Prefix.pch -o /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-apwdxmvdjvviujgwjsjhprmrmbaq/TiTestflight_Prefix.pch.gch
-
-CProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-s340040502.305915
-e340040504.033131
-r1
-xProcessPCH
-x/var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch
-xTiTestflight_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile TiTestflight_Prefix.pch5d8b4e369b44b441^297a08389b44b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/fusion94/tmp/testflight-module/TiTestflight_Prefix.pch0000000000000000^2308"ProcessPCH /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch TiTestflight_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/fusion94/tmp/testflight-module    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/bin/ec2-tools/ec2-api-tools-1.3-30349:/Developer/Android/android-sdk-mac_x86/tools:/bin:/usr/local/bin:/usr/bin:/usr/local/zend/bin:/usr/local/zend/mysql/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-generated-files.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-own-target-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-all-target-headers.hmap -iquote /Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/TiTestflight-project-headers.hmap -I/Users/fusion94/tmp/testflight-module/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.7.1/iphone/include/TiCore" -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources/armv7 -I/Users/fusion94/tmp/testflight-module/build/testflight.build/Release-iphoneos/testflight.build/DerivedSources -F/Users/fusion94/tmp/testflight-module/build/Release-iphoneos -c /Users/fusion94/tmp/testflight-module/TiTestflight_Prefix.pch -o /var/folders/24/5qsxfzh16j76s_b5fhr11d180000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TiTestflight_Prefix-dtxslkthxkkiofbfwjtztbkpcjjp/TiTestflight_Prefix.pch.gch
-
