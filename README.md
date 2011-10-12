@@ -11,7 +11,7 @@ teams of testers and developers.
 
 - - -
 
-<a id="copyright"/>
+[Copyright](#copyright)
 
 - - -
 
