@@ -98,6 +98,8 @@ tabGroup.open();
 1. git push
 1. go back to github and click the “pull request” button.
 
+- - - 
+
 ### LICENSE
 
 Apache Public License version 2
@@ -110,4 +112,4 @@ Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
 
 Appcelerator is a registered trademark of Appcelerator, Inc. Appcelerator Titanium is a trademark of Appcelerator, Inc.
 
-TestFlight is a registered trademark of TestFLight
+TestFlight is a registered trademark of TestFlight
