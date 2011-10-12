@@ -1,4 +1,4 @@
-![TestFlight](/TestFlight.png)
+![TestFlight](https://s3.amazonaws.com/github-ds/TestFlight.png)
 
 Appcelerator Titanium TestFlight Module for iOS 
 ==========================================
