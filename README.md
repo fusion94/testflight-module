@@ -1,4 +1,4 @@
-![TestFlight](TestFlight.png)
+![TestFlight](/TestFlight.png)
 
 Appcelerator Titanium TestFlight Module for iOS 
 ==========================================
