@@ -1,7 +1,6 @@
 ![TestFlight](https://s3.amazonaws.com/github-ds/TestFlight.png)
 
-Appcelerator Titanium TestFlight Module for iOS 
-==========================================
+### Appcelerator Titanium TestFlight Module for iOS 
 
 This is a TestFlight module for iOS originally developed by Rick Blalock and Matt Apperson. Also needing to be thanked is
 the core TestFlight development team who assisted in the making of this module. Without their help this wouldn't have been
@@ -10,8 +9,10 @@ possible.
 [TestFlight](http://www.testflightapp.com/) makes it easy to upload and distribute iOS builds over-the-air to your 
 teams of testers and developers.
 
-Features
-===
+- - -
+
+### Features
+
 * Sessions - Discover how testers are using your application. Watch as they progress and take unexpected turns.
 * In-App Questions - The most effective way to get tester feedback. Get the answers you need by asking questions the moment a checkpoint is passed.
 * Remote Logging - NSLog(@"All your logs are belong to us"); //No extra work: NSLogs are instantly attached to your session and crash reports.
@@ -19,8 +20,9 @@ Features
 * Checkpoints - Place checkpoints throughout your app to see how far testers are getting, confirm which areas are popular and reveal ones that need more testing.
 * In-App Updates - Prompt testers to install the latest version of your app. This is the easiest way for your testers to take advantage of installing on the fly.
 
-Basic usage:
-===
+- - - 
+
+### Basic Usage:
 ~~~
 Titanium.UI.setBackgroundColor('#eee');
 
@@ -78,18 +80,34 @@ tabGroup.addTab(tab1);
 tabGroup.open();
 ~~~
 
-TODO
-===
+- - - 
 
-Here is an outline of what needs to be done
+### TODO
 
-LICENSE
-=======
+* Need to write more examples to better show off features.
+
+- - -
+
+### HOW TO HELP
+1. Go to github and click the “fork” button.
+1. git clone git@github.com:DamageStudios/testflight-module.git
+1. cd testflight-module
+1. Make your changes/edits
+1. git status
+1. git commit -a
+1. git push
+1. go back to github and click the “pull request” button.
+
+### LICENSE
+
 Apache Public License version 2
 
-COPYRIGHT
-=========
+- - -
+
+### COPYRIGHT
+
 Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
 
 Appcelerator is a registered trademark of Appcelerator, Inc. Appcelerator Titanium is a trademark of Appcelerator, Inc.
+
 TestFlight is a registered trademark of TestFLight
