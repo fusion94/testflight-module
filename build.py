@@ -6,6 +6,7 @@
 import os, sys, glob, string
 import zipfile
 from datetime import date
+import re
 
 cwd = os.path.abspath(os.path.dirname(sys._getframe(0).f_code.co_filename))
 os.chdir(cwd)
@@ -19,16 +20,12 @@ module_defaults = {
 module_license_default = "TODO: place your license here and we'll include it in the module distribution"
 
 def replace_vars(config,token):
-	idx = token.find('$(')
-	while idx != -1:
-		idx2 = token.find(')',idx+2)
-		if idx2 == -1: break
-		key = token[idx+2:idx2]
-		if not config.has_key(key): break
-		token = token.replace('$(%s)' % key, config[key])
-		idx = token.find('$(')
+	seen = set()
+	seen_add = seen.add
+	for key in [ x for x in re.findall('\$\(([\w_]+)\)', token) if x not in seen and not seen_add(x)]:
+		if config.has_key(key):
+			token = token.replace('$(%s)' % key, config[key])
 	return token
-		
 		
 def read_ti_xcconfig():
 	contents = open(os.path.join(cwd,'titanium.xcconfig')).read()
@@ -53,10 +50,11 @@ def generate_doc(config):
 	sys.path.append(support_dir)
 	import markdown2
 	documentation = []
-	for file in os.listdir(docdir):
-		md = open(os.path.join(docdir,file)).read()
+	for f in os.listdir(docdir):
+		if not f.endswith('.md'): continue
+		md = open(os.path.join(docdir,f)).read()
 		html = markdown2.markdown(md)
-		documentation.append({file:html});
+		documentation.append({f:html});
 	return documentation
 
 def compile_js(manifest,config):
@@ -173,8 +171,8 @@ def package_module(manifest,mf,config):
 	docs = generate_doc(config)
 	if docs!=None:
 		for doc in docs:
-			for file, html in doc.iteritems():
-				filename = string.replace(file,'.md','.html')
+			for f, html in doc.iteritems():
+				filename = string.replace(f,'.md','.html')
 				zf.writestr('%s/documentation/%s'%(modulepath,filename),html)
 	for dn in ('assets','example','platform'):
 	  if os.path.exists(dn):
