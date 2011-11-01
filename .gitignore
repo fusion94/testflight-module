@@ -4,3 +4,5 @@ build
 *.zip
 .project
 .settings
+.pydevproject
+.DS_Store
