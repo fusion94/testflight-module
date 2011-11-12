@@ -12,6 +12,7 @@ teams of testers and developers.
 - - -
 
 * <a href="#features">Features</a>
+* <a href="#supported">Supported/Tested Platforms</a>
 * <a href="#usage">Basic Usage</a>
 * <a href="#todo">ToDo</a>
 * <a href="#help">How To Help</a>
@@ -28,6 +29,18 @@ teams of testers and developers.
 * Crash Reports - Reported in realtime, with environment snapshots and full session activity.
 * Checkpoints - Place checkpoints throughout your app to see how far testers are getting, confirm which areas are popular and reveal ones that need more testing.
 * In-App Updates - Prompt testers to install the latest version of your app. This is the easiest way for your testers to take advantage of installing on the fly.
+
+- - -
+
+### <a name="supported">Supported/Tested Platforms</a>
+
+This module is only tested against the **latest** Titanium Mobile SDK's. It is not, nor will it ever be tested against the
+Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
+
+|TestFlight Module Version|Titanium Mobile SDK Version
+|:---------|:----------|
+|1.0|1.7.2, 1.7.3|
+|1.1|1.7.2, 1.7.3, 1.7.5|
 
 - - - 
 
