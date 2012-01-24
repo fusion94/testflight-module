@@ -34,7 +34,7 @@
 	// you *must* call the superclass
 	[super startup];
 	
-    [TestFlight setOptions:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:YES] forKey:@"completeNetworkRequestOnMainThread"]];
+    [TestFlight setOptions:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:@"sendLogOnlyOnCrash"]];
 	NSLog(@"[INFO] %@ loaded",self);
 }
 
