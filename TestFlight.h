@@ -6,7 +6,7 @@
 //  Copyright 2011 TestFlight. All rights reserved.
 
 #import <Foundation/Foundation.h>
-#define TESTFLIGHT_SDK_VERSION @"0.8.3beta4"
+#define TESTFLIGHT_SDK_VERSION @"0.8.3"
 #undef TFLog
 
 #if __cplusplus
@@ -69,5 +69,13 @@ extern "C" {
  * Opens a feedback window that is not attached to a checkpoint
  */
 + (void)openFeedbackView;
+
+/**
+ * Submits custom feedback to the site. Sends the data in feedback to the site. This is to be used as the method to submit
+ * feedback from custom feedback forms.
+ *
+ * @param feedback Your users feedback, method does nothing if feedback is nil
+ */
++ (void)submitFeedback:(NSString*)feedback;
 
 @end
