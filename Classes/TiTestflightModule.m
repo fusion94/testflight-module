@@ -87,6 +87,15 @@
     [TestFlight openFeedbackView];
 }
 
+-(void)submitFeedback:(id)args
+{
+    ENSURE_UI_THREAD_1_ARG(args);
+
+    NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
+    [TestFlight submitFeedback:value];
+
+}
+
 -(void)customInfo:(id)args
 {
     NSString *key = [TiUtils stringValue:[args objectAtIndex:0]];
