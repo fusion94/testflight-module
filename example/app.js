@@ -3,6 +3,7 @@
 // testflight.token('YourTeamTokenHere');
 // testflight.checkpoint('SomeCheckpoint');
 // testflight.feedback();
+// testflight.submitFeedback("YourFeedbackHere");
 
 Titanium.UI.setBackgroundColor('#eee');
 
@@ -12,7 +13,8 @@ Ti.API.info("module is => " + testflight);
 
 
 // Set the team token here (REQUIRED)
-testflight.token('YourTeamTokenHere');
+// Add a boolean as a second parameter to enable test mode (submits UDID, OPTIONAL)
+testflight.token('YourTeamTokenHere', true);
 
 var tabGroup = Titanium.UI.createTabGroup();
 

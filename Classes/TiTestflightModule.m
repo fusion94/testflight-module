@@ -69,8 +69,19 @@
 
 -(void)token:(id)args
 {
+    ENSURE_UI_THREAD(token, args);
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
+    BOOL testing = 0;
+    
+    if ([args count] > 1) {
+        testing = [TiUtils boolValue: [args objectAtIndex:1]];
+    }
+    
     [TestFlight takeOff:value];
+    
+    if (testing == YES) {
+        [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    }
 }
 
 -(void)checkpoint:(id)args
@@ -90,7 +101,7 @@
 -(void)submitFeedback:(id)args
 {
     ENSURE_UI_THREAD_1_ARG(args);
-
+    
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
     [TestFlight submitFeedback:value];
 
