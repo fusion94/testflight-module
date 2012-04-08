@@ -4,6 +4,7 @@
 // testflight.checkpoint('SomeCheckpoint');
 // testflight.feedback();
 // testflight.submitFeedback("YourFeedbackHere");
+// testflight.remoteLog("YourInfoLogHere");
 
 Titanium.UI.setBackgroundColor('#eee');
 
@@ -49,6 +50,8 @@ table.addEventListener('click', function(_event) {
 	btn.addEventListener('click', function() {
 		// Open the feedback window
 		testflight.feedback();
+		// Logging remotely in Testflight's Session Log
+		testflight.remoteLog('Feedback View opened.');
 	});
 	
 	newwin.add(label);

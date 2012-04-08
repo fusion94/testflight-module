@@ -71,16 +71,15 @@
 {
     ENSURE_UI_THREAD(token, args);
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
-    BOOL testing = 0;
-    
-    if ([args count] > 1) {
-        testing = [TiUtils boolValue: [args objectAtIndex:1]];
-    }
+    BOOL testing = FALSE;
     
     [TestFlight takeOff:value];
     
-    if (testing == YES) {
-        [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    if ([args count] > 1) {
+        testing = [TiUtils boolValue: [args objectAtIndex:1]];
+        if (testing == TRUE) {
+            [TestFlight setDeviceIdentifier: [[UIDevice currentDevice] uniqueIdentifier]];
+        }
     }
 }
 
@@ -112,6 +111,13 @@
     NSString *key = [TiUtils stringValue:[args objectAtIndex:0]];
     NSString *value = [TiUtils stringValue:[args objectAtIndex:1]];
     [TestFlight addCustomEnvironmentInformation: value forKey:key];
+}
+
+-(void)remoteLog:(id)args
+{
+    ENSURE_UI_THREAD_1_ARG(args);
+    NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
+    TFLog(@"[INFO] %@",value);
 }
 
 @end
