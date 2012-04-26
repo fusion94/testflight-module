@@ -3,6 +3,8 @@
 // testflight.token('YourTeamTokenHere');
 // testflight.checkpoint('SomeCheckpoint');
 // testflight.feedback();
+// testflight.submitFeedback("YourFeedbackHere");
+// testflight.remoteLog("YourInfoLogHere");
 
 Titanium.UI.setBackgroundColor('#eee');
 
@@ -12,7 +14,8 @@ Ti.API.info("module is => " + testflight);
 
 
 // Set the team token here (REQUIRED)
-testflight.token('YourTeamTokenHere');
+// Add a boolean as a second parameter to enable test mode (submits UDID, OPTIONAL)
+testflight.token('YourTeamTokenHere', true);
 
 var tabGroup = Titanium.UI.createTabGroup();
 
@@ -47,6 +50,8 @@ table.addEventListener('click', function(_event) {
 	btn.addEventListener('click', function() {
 		// Open the feedback window
 		testflight.feedback();
+		// Logging remotely in Testflight's Session Log
+		testflight.remoteLog('Feedback View opened.');
 	});
 	
 	newwin.add(label);
