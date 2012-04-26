@@ -73,14 +73,14 @@
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
     BOOL testing = FALSE;
     
-    [TestFlight takeOff:value];
-    
     if ([args count] > 1) {
         testing = [TiUtils boolValue: [args objectAtIndex:1]];
         if (testing == TRUE) {
             [TestFlight setDeviceIdentifier: [[UIDevice currentDevice] uniqueIdentifier]];
         }
     }
+    
+    [TestFlight takeOff:value];
 }
 
 -(void)checkpoint:(id)args
